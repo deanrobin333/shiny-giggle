@@ -61,7 +61,8 @@ function install_changes() {
     echo "JavaScript function already added. Skipping..."
   else
     # Add the provided JavaScript function to the bottom of preload.js
-    cat <<EOL >>preload.js
+    cat <<'EOL' >>preload.js
+
 (function __polyfill_2() {
     function getClientHints(navigator) {
         let { userAgent } = navigator;
