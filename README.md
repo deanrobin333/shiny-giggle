@@ -24,7 +24,7 @@
 - Notion Enhancer directory is usually in /opt/ and can be named
 	- Notion Enhancer or
 	- Notion
-- If it's Named "Notion Enhancer" Script will work, if not change lines 43 and 333 of the code to the correct location
+- If it's Named "Notion Enhanced" Script will work, if not change lines 43 and 333 of the code to the correct location
 	- Here our line is `cd  /opt/Notion\ Enhanced/resources`, change lines 43 and 333 to `cd  /opt/Notion/resources` if your Notion location is `/opt/Notion` and not `/opt/Notion Enhancer`
 
 <br></br>
